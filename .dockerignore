@@ -1,0 +1,7 @@
+.idea/
+node_modules
+*.log
+.env.local
+test/
+logs/
+.project

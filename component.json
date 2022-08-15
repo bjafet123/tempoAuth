@@ -1,0 +1,24 @@
+{
+  "title": "webhook Connector",
+  "description": "webhook Connector",
+  "docsUrl": "https://github.com/CloudGenUser/mmsql-component/blob/main/README.md",
+  "buildType": "docker",
+  "credentials": {
+  },
+  "triggers": {
+    "testTrigger": {
+      "title": "For test trigger",
+      "main": "./lib/triggers/testTrigger.js"
+    }
+  },
+  "actions": {
+    "process": {
+      "title": "Fetch, insert, delete or update data",
+      "main": "./lib/actions/process.js"
+    },
+    "testAction": {
+      "title": "Fetch, insert, delete or update data",
+      "main": "./lib/actions/testAction.js"
+    }
+  }
+}

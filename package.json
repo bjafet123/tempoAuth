@@ -1,0 +1,20 @@
+{
+  "name": "webhook-auth-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon test/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openintegrationhub/ferryman": "^2.1.1",
+    "@openintegrationhub/ferryman-1-7": "npm:@openintegrationhub/ferryman@^1.7.1",
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "msgbroker-nxg-cg": "^0.1.0",
+    "utils-nxg-cg": "^1.0.8"
+  }
+}
